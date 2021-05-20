@@ -1,0 +1,17 @@
+@use 'variables';
+
+.stats-card {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0 1.5rem;
+  background-color: variables.$bg-primary-card;
+  color: variables.$neutral-white;
+
+  &__content {
+    text-align: center;
+  }
+
+  &__img-div img {
+    max-width: 100%;
+  }
+}

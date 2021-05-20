@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #090b1a;
+}
+
+h1,
+h2 {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+}
+
+.stats-card {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0 1.5rem;
+  background-color: #1b1938;
+  color: white;
+}
+.stats-card__content {
+  text-align: center;
+}
+.stats-card__img-div img {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
