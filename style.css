@@ -24,8 +24,17 @@ h2 {
   font-family: "Lexend Deca", sans-serif;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
 p {
   font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+}
+
+.accent {
+  color: #aa5cdb;
 }
 
 .stats-card {
@@ -35,9 +44,32 @@ p {
   background-color: #1b1938;
   color: white;
   border-radius: 10px;
+  max-width: 275px;
 }
 .stats-card__content {
   text-align: center;
+  padding: 3rem 2rem;
+}
+.stats-card__heading {
+  margin-bottom: 1rem;
+  color: white;
+}
+.stats-card__description {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+.stats-card__stat-group {
+  margin: 2rem;
+}
+.stats-card__stat-group h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.stats-card__stat-group p {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
 }
 .stats-card__img-div {
   background-color: #aa5cdb;
@@ -46,9 +78,11 @@ p {
 }
 .stats-card__img-div img {
   display: block;
-  max-width: 100%;
+  width: 100%;
+  max-height: 200px;
   opacity: 0.6;
   filter: brightness(50%);
+  object-fit: fill;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
 }

@@ -7,9 +7,37 @@
   background-color: variables.$bg-primary-card;
   color: variables.$neutral-white;
   border-radius: 10px;
+  max-width: 275px;
 
   &__content {
     text-align: center;
+    padding: 3rem 2rem;
+  }
+
+  &__heading {
+    margin-bottom: 1rem;
+    color: variables.$neutral-white;
+  }
+
+  &__description {
+    color: variables.$neutral-white-transparent-more;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+  }
+
+  &__stat-group {
+    margin: 2rem;
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      text-transform: uppercase;
+      color: variables.$neutral-white-transparent-less;
+    }
   }
 
   &__img-div {
@@ -20,9 +48,11 @@
 
   &__img-div img {
     display: block;
-    max-width: 100%;
+    width: 100%;
+    max-height: 200px;
     opacity: 0.6;
     filter: brightness(50%);
+    object-fit: fill;
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
   }

@@ -26,6 +26,15 @@ h2 {
   font-family: variables.$ff-accent;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
 p {
   font-family: variables.$ff-primary;
+  font-size: 1.2rem;
+}
+
+.accent {
+  color: variables.$primary-accent;
 }
